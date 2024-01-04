@@ -52,3 +52,35 @@ The primary motivation behind this project is to leverage advanced technologies 
 - After training the model, the validation accuracy significantly improves to approximately 98%.
 - This improvement demonstrates the effectiveness of the training process.
 
+## Usage 
+
+### Inference
+To use the leaf image classification model for inference, follow these steps:
+
+1. Cloning the repository: 
+   ```
+   git clone https://github.com/hussain033/Drowsiness-Detection
+   ```
+3. Install the required dependencies by running:
+   ```
+   pip install -r requirements.txt
+   ```
+4. Place your leaf image in the appropriate directory.
+5. Run the inference script:
+   ```
+   python inference.py
+   ```
+6. while the python script is running, the system will capture a live video to detect drowsiness of the person in front of the camera.
+
+### Experimentation
+You can experiment with the model training of the project by replacing the mobilenetv2 model with any other image classification such as resnet, alexnet to mention a few. We have provided the model training ipynb file, feel free to experiment with it by cloning the repo.
+
+for Cloning the repo, use the following command:
+
+```
+git clone https://github.com/hussain033/Leaf-image-classification
+```
+
+## Results
+
+The developed model achieves an accuracy rate of about 98% on unseen data. This high accuracy demonstrates the model's proficiency in detecting drowsiness of humans. 
